@@ -10,7 +10,7 @@ to comprehend the events of the match.
 
 We utilize GPT 3.5 through ChatGPT as the LLM in our approach. In addition,
 LangChain is used, which has emerged as an effective approach in NLP research, to retrieve information from our data framework using the GPT
-3.5 model. Using LangChain as a framework, different technologies can be abstracted, and we are able to link the LLM prompts to each other. This allows
+3.5 model. Using LangChain as a framework, different technologies can be abstracted, and we are able to link the LLM prompts to each other. This allows
 us to better utilize question answering and text generation for LLM.
 One of the components of LangChain is the “text splitter”, which is responsible for breaking down large pieces of text into segments that can be processed by
 the LLM. The splitting is done by creating chunks smaller than 512 letters.
